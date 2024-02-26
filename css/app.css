@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 650px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title {
+    text-align: center;
+}
+
+.col {
+    width: calc(100%/3);
+}
+
+.card-clothes img{
+    width: 200px;
+}
+
+.card-clothes{
+    padding: 10px 0px;
+
+}
+
+.info{
+    padding-left: 3px;
+    
+}
+
+.brand{
+    font-size: 10px;
+}
+
+.description{
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.sale-price{
+    font-size: 11px;
+    font-weight: bold;
+    color: red;
+}
+
+.old-price{
+    font-size: 11px;
+    text-decoration: line-through;
+}
+
+.sale-price, .old-price{
+    display: inline;
+}
